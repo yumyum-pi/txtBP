@@ -40,5 +40,5 @@ func init() {
 	// setting the flags
 	// getting the
 	rootCmd.PersistentFlags().StringVarP(&e, "extension", "e", ".txt", "File format of the files to read. Default=.txt")
-	rootCmd.PersistentFlags().StringVarP(&s, "sep", "s", ".txt", "Seperator of the line. Default='-'")
+	rootCmd.PersistentFlags().StringVarP(&s, "sep", "s", "-", "Seperator of the line. Default='-'")
 }
